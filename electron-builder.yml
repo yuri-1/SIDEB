@@ -1,0 +1,16 @@
+appId: com.tomato.sideb
+productName: SIDEB
+files:
+  - main.js
+  - package.json
+  - index.html
+  - expansion.js
+  - narrative.js
+  - pixel-ui.css
+  - pixel-ui.js
+  - assets/**/*
+  - scripts/**/*
+mac:
+  target: dmg
+  icon: build/icon.png
+  category: public.app-category.games

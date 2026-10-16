@@ -1,0 +1,19 @@
+{
+  "name": "sideb",
+  "version": "1.0.2",
+  "description": "用浏览器打开 index.html，或在此目录运行 `python3 -m http.server 8765 --bind 127.0.0.1`，访问 http://127.0.0.1:8765。请固定使用同一地址、端口和浏览器，避免浏览器将存档分到不同来源。所有素材均位于 assets，无网络素材依赖。",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder --mac"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.8.0",
+    "electron-builder": "^26.15.3"
+  }
+}

@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Dependencies and build output (regenerate with `npm install` / `npm run build`)
+node_modules/
+dist/
+
+# Large source archive
+*.zip
+
+# AI prompt records and intermediate art (not needed at runtime; remove a line to publish it)
+assets/*.md
+assets/bar-v1.png
+assets/bar-v2*.png
+assets/bar-v3*.png
+assets/*-preview*.png
+assets/preview-v2.png
+assets/name-spacing-fix.png
+assets/audio/sfx/previews/
+docs/previews/
+docs/art/
+docs/*.json
+
+# 剧本与剧情设计(不公开)
+第一晚剧本.md
+剧情分支设计.md
+docs/
+CHANGELOG.md
+AGENTS.md
